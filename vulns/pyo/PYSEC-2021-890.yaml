@@ -6,16 +6,16 @@ affected:
   ranges:
   - events:
     - introduced: '0'
+    - fixed: 1.0.4
     type: ECOSYSTEM
   versions:
   - 1.0.0
   - 1.0.1
   - 1.0.2
   - 1.0.3
-  - 1.0.4
-  - 1.0.5
 aliases:
 - CVE-2021-41498
+- GHSA-qj27-32wp-ghrg
 details: Buffer overflow in ajaxsoundstudio.com Pyo &lt and 1.03 in the Server_jack_init
   function. which allows attackers to conduct Denial of Service attacks by arbitrary
   constructing a overlong server name.
@@ -30,4 +30,3 @@ references:
 severity:
 - score: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
   type: CVSS_V3
-withdrawn: '2024-11-22T04:37:05Z'
